@@ -20,5 +20,5 @@
             <?php endforeach; ?>
         </select>
     </div>
-    <button type="submit" class="btn btn-default">Lähetää</button>
+    <button type="submit" class="btn btn-default">Lähetä</button>
 </form>

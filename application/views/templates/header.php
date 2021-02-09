@@ -17,10 +17,18 @@
                     <a class="nav-link" href="<?php echo base_url(); ?>about">Tietoa</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url(); ?>posts">Viestit</a>
+                    <a class="nav-link" href="<?php echo base_url(); ?>categories">Kategoriat</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url(); ?>posts/create">Lähetä Viesti</a>
+                    <a class="nav-link" href="<?php echo base_url(); ?>posts">Viestit</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="nav-link" href="<?php echo base_url(); ?>posts/create">Lähetä Viesti</a>             
+                </li>
+                <li>
+                    <a class="nav-link" href="<?php echo base_url(); ?>categories/create">Luo Kategoria</a>             
                 </li>
             </ul>
         </div>
